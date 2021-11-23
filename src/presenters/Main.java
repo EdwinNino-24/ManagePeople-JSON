@@ -193,9 +193,6 @@ public final class Main {
                 int removeId = scanner.nextInt();
                 System.out.println(formatOption);
                 people.remove(removeId);
-                System.out.println(formatOption);
-                System.out.println(removeSuccessfully);
-                System.out.println(formatOption);
                 saveData();
                 jsonConversion();
             }
@@ -203,7 +200,9 @@ public final class Main {
                 System.out.println(NonExistentId);
             }
         }
-        
+        System.out.println(formatOption);
+        System.out.println(removeSuccessfully);
+        System.out.println(formatOption);
         System.out.println(formatOption);
         System.out.println(navigation);
         System.out.println(formatOption);
